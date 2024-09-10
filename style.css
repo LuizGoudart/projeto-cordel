@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 3.5vw;
+}
+
+/*Área da header*/
+
+header {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    background-color: #000000;
+}
+
+header > h1 {
+    font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+
+p {
+    font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px 40px 80px 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+#cred {
+    font-size: 2.5vw;
+}
+
+#creditos {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    font-weight: bolder;
+
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Área da Corpo*/
+
+.text {
+    font-family: 'Sriracha', Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#img1 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: white;
+
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img1 > p {
+    width: 47%;
+    margin: 40px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #00000075;
+}
+
+
+#img2 {
+    width: 100%;
+    padding: 10px;
+    color: rgb(158, 60, 60);
+
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img2 > p {
+    width: 47%;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #0000009d;
+}
+
+section > p{
+    color: black;
+    text-align: left;
+}
+
+
+
+/*Área da Footer*/
+footer {
+    padding: 0;
+    background-color: #000000;
+}
+
+footer > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+
+
