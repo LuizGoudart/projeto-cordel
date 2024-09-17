@@ -81,7 +81,7 @@ a:hover {
     padding: 10px;
     color: white;
 
-    background-image: url('/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
