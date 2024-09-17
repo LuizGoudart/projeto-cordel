@@ -130,7 +130,7 @@ footer {
     background-color: #000000;
 }
 
-footer > p {
+footer > p, a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
