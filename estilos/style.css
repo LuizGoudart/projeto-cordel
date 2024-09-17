@@ -89,9 +89,9 @@ a:hover {
 }
 
 #img1 > p {
-    width: 47%;
+    display: inline-block;
     margin: 40px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
     background-color: #00000075;
 }
@@ -110,7 +110,7 @@ a:hover {
 }
 
 #img2 > p {
-    width: 47%;
+    display: inline-block;
     margin: 40px;
     padding: 10px;
     border-radius: 3px;
